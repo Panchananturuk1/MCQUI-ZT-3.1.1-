@@ -12,6 +12,7 @@ import { NgxSliderModule } from "@angular-slider/ngx-slider";
 import { FormsModule } from '@angular/forms'
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,7 @@ import { FormsModule } from '@angular/forms'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // NgxSliderModule,
+    NgxSliderModule,
     MatSliderModule,
     FormsModule
    
